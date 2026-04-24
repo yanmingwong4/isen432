@@ -14,7 +14,7 @@ jobs:
         run: |
           cd aware
           flutter pub get
-          flutter build web --release --base-href="/isen432/aware/"
+          flutter build web --release --base-href="/isen432/"
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
